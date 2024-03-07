@@ -1,0 +1,19 @@
+# Vanilla agent template
+name: simpleLLM
+version: 0.0.1
+type: vanilla
+description: A plain gpt-4 LLM.
+target_tasks:
+  - search google
+  - get text from pdf downloaded from url and summarize it
+llm:
+  model_name: gpt-4
+  params:
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 1.0
+    max_tokens: 1024
+prompt_template: !prompt VanillaPrompt
+plugins:
+  - name: google_search
+  - name: pdf_extractor

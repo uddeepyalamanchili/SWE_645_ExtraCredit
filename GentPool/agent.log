@@ -1,0 +1,110 @@
+INFO:root:Creating Config from file: ./gentpool/pool/recipeGPT/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/recipeGPT/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/recipeGPT/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:{"name":"get_recipe_id", "arguments":{
+  "main_item": "chicken"
+}}
+
+INFO:root:Calling function: get_recipe_id ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:52774
+INFO:root:--------------------
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:{"name":"get_recipe_by_id", "arguments":{'id': '52774'}}
+
+INFO:root:Calling function: get_recipe_by_id ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:Mix Sauce in small bowl.
+Mince garlic into wok with oil. Place over high heat, when hot, add chicken and Chinese broccoli stems, cook until chicken is light golden.
+Push to the side of the wok, crack egg in and scramble. Don't worry if it sticks to the bottom of the wok - it will char and which adds authentic flavour.
+Add noodles, Chinese broccoli leaves and sauce. Gently mix together until the noodles are stained dark and leaves are wilted. Serve immediately!
+INFO:root:--------------------
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:Here is a delicious recipe for you:
+
+Ingredients:
+- Chicken
+- Chinese broccoli
+- Garlic
+- Egg
+- Noodles
+- Sauce of your choice
+
+Instructions:
+1. Mix the sauce in a small bowl.
+2. Mince the garlic into a wok with oil. Place over high heat.
+3. When hot, add the chicken and Chinese broccoli stems, cook until the chicken is light golden.
+4. Push the chicken and broccoli to the side of the wok, crack the egg in and scramble. Don't worry if it sticks to the bottom of the wok - it will char and add an authentic flavour.
+5. Add the noodles, Chinese broccoli leaves and the sauce. Gently mix together until the noodles are stained dark and the leaves are wilted.
+6. Serve immediately and enjoy your meal!
+
+Please let me know if you need any more help.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:{"name":"get_recipe_id", "arguments":{'main_item': 'fish'}}
+
+INFO:root:Calling function: get_recipe_id ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:Something wrong with fetching id or that major item based recipes not available
+INFO:root:--------------------
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:{"name":"google_search", "arguments":{'query': 'fish recipe'}}
+
+INFO:root:Calling function: google_search ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+
+SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+
+SearchResult(url=https://www.skinnytaste.com/fish-florentine/, title=Fish Florentine – The BEST Fish Recipe!, description=Jan 20, 2019 — This easy Fish Florentine recipe, made with firm white fish served over creamy spinach. My most popular fish recipes, a must try!)
+
+SearchResult(url=https://www.food.com/recipe/garlic-crusted-cod-fish-369973, title=Garlic-Crusted Cod Fish Recipe, description=Just buy the cod and parsley; and you probably have everything else at home. Such a simple fish recipe and it packs a lot of flavor. This is for garlic lovers!)
+
+SearchResult(url=https://www.allrecipes.com/recipe/145853/unbelievable-fish-batter/, title=Unbelievable Fish Batter Recipe, description=Oct 11, 2023 — This fish batter recipe uses flour, baking powder, salt, milk, and water to create an incredibly light and crispy batter on your favorite ...)
+
+SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+
+SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+
+SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+
+SearchResult(url=https://www.allrecipes.com/recipe/145853/unbelievable-fish-batter/, title=Unbelievable Fish Batter Recipe, description=Oct 11, 2023 — This fish batter recipe uses flour, baking powder, salt, milk, and water to create an incredibly light and crispy batter on your favorite ...)
+
+SearchResult(url=https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter, title=Pan-Roasted Fish Fillets With Herb Butter Recipe (with Video), description=A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets This life-changing method is adopted from a former ...)
+INFO:root:--------------------
+INFO:root:recipeGPT is thinking...
+INFO:root:Done
+INFO:root:[blue]recipeGPT: 
+INFO:root:Here are a few recipes you can try with fish:
+
+1. [Pan-Roasted Fish Fillets With Herb Butter](https://cooking.nytimes.com/recipes/1017360-pan-roasted-fish-fillets-with-herb-butter): A blast of heat in a cast-iron pan and a basting of golden butter does wonders for plain fish fillets.
+
+2. [Fish Florentine](https://www.skinnytaste.com/fish-florentine/): This easy Fish Florentine recipe is made with firm white fish served over creamy spinach.
+
+3. [Garlic-Crusted Cod Fish](https://www.food.com/recipe/garlic-crusted-cod-fish-369973): A simple fish recipe that packs a lot of flavor. This is for garlic lovers!
+
+4. [Unbelievable Fish Batter](https://www.allrecipes.com/recipe/145853/unbelievable-fish-batter/): This fish batter recipe uses flour, baking powder, salt, milk, and water to create an incredibly light and crispy batter on your favorite fish.
+
+Please click on the recipe names to get the detailed instructions. Enjoy your cooking!
+INFO:root:Done
+INFO:root:[green]User: 
