@@ -9,7 +9,7 @@ class PDFExtractorArgs(BaseModel):
 
 
 class PDFExtractor(BaseTool):
-    """Tool that adds the capability to query the Google search API."""
+    """Tool that adds the capability to read pdf from a URL."""
 
     name = "pdf_extractor"
     description = "A tool to retrieve web pages through url. Useful when you have a url and need to find detailed information inside."
